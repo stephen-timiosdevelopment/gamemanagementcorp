@@ -1,0 +1,42 @@
+/* blue  */
+#page_bg {
+/*comment by kpl	background: #0C3A6D;   end */
+background:#0E205A url(../images/bg-main.png) no-repeat top center;
+}
+
+div#wrapper {
+/*comment by kpl		background: #f7f7f7 url(../images/blue/mw_shadow_l.png) 0 0 repeat-y;   end */
+}
+
+div#wrapper_r {
+/*comment by kpl	background: url(../images/blue/mw_shadow_r.png) 100% 0 repeat-y;    end */
+           background:#ffffff;
+}
+
+div#header {
+/*comment by kpl	background: url(../images/blue/mw_header_t.png) 0 0 repeat-x;   end */
+background: url(../images/header-bg.png) 0 0 no-repeat;
+height:175px;
+width:975px;
+}
+
+div#header_l {
+/*comment by kpl	background: url(../images/blue/mw_header_t_l.png) 0 0 no-repeat;  end */
+}
+
+div#header_r {
+/*comment by kpl	background: url(../images/blue/mw_header_t_r.png) 100% 0 no-repeat;   end */
+}
+
+div#footer {
+/*comment by kpl	background: #f7f7f7 url(../images/blue/mw_footer_b.png) 0 100% repeat-x;   end */
+}
+
+div#footer_l {
+/*comment by kpl	background: url(../images/blue/mw_footer_b_l.png) 0 0 no-repeat;   end */
+}
+
+div#footer_r {
+/*comment by kpl	background: url(../images/blue/mw_footer_b_r.png) 100% 0 no-repeat;    end */
+        background:#ffffff;
+}

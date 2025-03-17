@@ -1,0 +1,274 @@
+/***** Top/Main Menu *****/
+
+
+/***** Footer Menu *****/
+
+#footermenu {	
+	padding:1px 0 0 10px;
+	margin:0;
+	list-style-type:none;
+	color:#FFFFFF;
+	text-align:right;
+}
+
+#footermenu li {	
+	padding:0;
+	margin:0;
+	list-style-type:none;
+	float:left;
+	text-align:right;
+}
+
+#footermenu li a {	
+	padding:0;
+	margin:0;
+	font-size:11px;
+	color:#FFFFFF;
+	text-decoration:none;
+}
+
+#footermenu li a:hover {
+	color:#0c557d;
+}
+
+#footer_right a.mainlevel
+{
+	padding:0;
+	margin:0;
+	color:#FFFFFF;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+
+#footer_right a.mainlevel:hover
+{
+	text-decoration:underline;
+}
+/********** Top Menu **********/
+
+/*main headings*/
+#homemenu {
+	padding:33px 0 0 175px; 
+	margin:0px; 
+	list-style-type:none;
+	color:#717171;
+	font-size:10px;
+}
+
+/*This floats the menu so they appear side by side and not on top of eachother.*/
+#homemenu li {
+	position:relative;
+	float:left;
+	line-height:140%;
+	padding:0;
+	margin:0;
+}
+
+#homemenu li#current a span {
+	color:#e12f29;
+}
+
+li.active a {
+	color:#e12f29;
+}
+
+/*This changes the top level menu's links*/
+#homemenu li a {
+	padding:0 7px;
+	margin:0;
+	display:block;
+	color:#717171;
+	text-decoration:none;
+}
+
+
+/*This changes the hover for all links in the menu div*/
+#homemenu li a:hover {
+	/*background:#DF6F1D;*/
+	color:#e12f29;
+}
+
+
+/*This makes the submenu list display in the hover. Do not change either of the commands listed below.*/
+#homemenu li:hover ul {
+	display:block;
+}
+
+#homemenu li.over ul {
+	display:block;
+}
+
+#homemenu span {
+		padding:0;
+		margin:0;
+}
+
+#homemenu span.separator {
+	padding:0 8px 3px;
+	margin:0;
+}
+/********** Main Menu **********/
+/*main headings*/
+#mainmenu {
+	padding:10px 0 0 5px; 
+	margin:0px; 
+	list-style-type:none;
+	color:#FFFFFF;
+	font-size:16px;
+	font-weight:bold;
+	font-family:Arial,Helvetica,sans-serif;
+	line-height:24px;
+}
+
+/*This floats the menu so they appear side by side and not on top of eachother.*/
+#mainmenu li {
+	position:relative;
+	float:left;
+	padding:0;
+	margin:0;
+	z-index:100;
+	
+}
+
+/*This changes the top level menu's links*/
+#mainmenu li a {
+	/*padding:0 15px;*/
+	margin:0;
+	display:block;
+	color:#FFFFFF;
+	text-decoration:none;
+	height:50px;
+}
+
+
+#mainmenu li#current a span {
+	color:#FFD3A8;
+}
+
+li.active a {
+	color:#FFD3A8;
+}
+
+/*This changes the position and appearance of the submenus*/
+#mainmenu li ul {
+	display:none; 
+	position:absolute;
+	background-color:#232D7C;
+/*	border:1px solid #FFFFFF;*/
+	border-bottom:1px solid #FFFFFF;
+	border-right:1px solid #FFFFFF;
+	border-left:1px solid #FFFFFF;
+	padding:0;
+	margin:0;
+	margin-top:35px;
+	list-style-type:none;
+	z-index:120;
+	mar/gin-left:-125px;
+}
+
+#mainmenu li ul li {
+	padding:0;
+	display:block;
+	margin:0;
+	clear:both;
+	white-space:nowrap;
+}
+
+/*This changes the submenu links*/
+#mainmenu li ul li a {
+	color:#FFFFFF;
+	display:block;
+	height:25px;
+
+	padding-bottom:4px;
+		font-size:12px;	
+}
+li.active{
+color:#FFFF00;
+
+}
+/*This changes the hover for all links in the menu div*/
+#mainmenu li a:hover {
+	color:#FFFF00;
+}
+
+#mainmenu li ul li a:hover {
+	color:#FFFF00;
+}
+#mainmenu li ul li{
+	color:#FFFFFF;
+	background:none;
+	width:100%;
+	border-bottom:1px solid #FFFFFF;
+
+}
+#mainmenu li ul li:hover{
+	color:#FFFF00;
+	background:none;
+		
+}
+/*#mainmenu li#current a,
+#mainmenu li.active a {
+	background:#DF6F1D;
+}*/
+
+
+/*This makes the submenu list display in the hover. Do not change either of the commands listed below.*/
+#mainmenu li:hover ul {
+	display:block;
+}
+
+#mainmenu li.over ul {
+	display:block;
+}
+
+#mainmenu span {
+		padding:0;
+		margin:0;
+		
+}
+
+
+#mainmenu span.separator {
+		padding:0 10px;
+		margin:0;
+		color:#FED5B0;
+		font-size:15px;
+}
+/***** Submenu widths *****/
+
+.item15 ul {
+	width:210px;
+}
+
+.item16 ul {
+	width:230px;
+}
+
+.item17 ul {
+	width:200px;
+}
+
+.item18 ul {
+	width:170px;
+}
+
+.item19 ul {
+	width:130px;
+}
+.item27 ul{
+width:190px;
+}
+
+.item55 ul{
+width:235px;
+}
+.item56 ul{
+width:245px;
+}
+.item57 ul{
+width:235px;
+}
+.item58 ul{
+width:232px;
+}

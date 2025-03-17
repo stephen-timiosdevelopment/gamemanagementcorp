@@ -1,0 +1,48 @@
+/* blue */
+a:link, a:visited {
+	color: #135cae;
+}
+
+a:hover {
+	color: #0b3768;
+}
+
+#pillmenu a:hover {
+  color: #FFFF00;
+}
+/*
+#pillmenu a#active_menu-nav {
+  background: url(../images/blue/mw_menu_active_bg.png) repeat-x;
+  color: #fff;
+}
+*/
+
+#pillmenu a#active_menu-nav:hover {
+  color: #fff;
+}
+
+h3, .componentheading, table.moduletable th {
+  color: #7E89B9;
+  padding-left:20px;
+  font-size:16px;
+}
+
+div.module_menu {
+/*comment by kpl	background: url(../images/blue/mw_box_br.png) 100% 100% no-repeat;    end */
+}
+
+div.module_menu div {
+/*comment by kpl	background: url(../images/blue/mw_box_bl.png) 0 100% no-repeat;   end */
+}
+
+div.module_menu div div {
+/*comment by kpl	background: url(../images/blue/mw_box_tr.png) 100% 0 no-repeat;   end */
+}
+
+div.module_menu div div div {
+/*comment by kpl	background: url(../images/blue/mw_box_tl.png) 0 0 no-repeat;   end */
+}
+div.module_menu h3{
+color:#7E89B9;
+font-size:16px;
+}

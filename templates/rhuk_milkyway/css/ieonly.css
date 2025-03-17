@@ -1,0 +1,102 @@
+/* IE ONLY CSS */
+
+body.width_fmax div#wrapper {
+	/*width: expression(((document.body.clientWidth)) < 751? "750px": ((document.body.clientWidth)) > 1050? "1050px": "auto" );*/
+	width:975px;
+}
+
+div.module_menu div div div {
+	width: 100%;
+}
+
+div#footer {
+	width: 100%;
+}
+
+div#whitebox_b {
+	width: 100%;
+}
+#pathway {
+/*   float: left;*/
+}
+/*CSS Fixes Code - By Aashish - Starts Here*/
+span.pathway {
+  display: inline-block;
+  margin: 0 20px;
+  height: 16px;
+  line-height: 16px;
+  overflow: hidden;
+  margin-top:10px;
+}
+#maincolumnN
+ {
+	margin-left: 20%;
+	padding-left: 0px;
+	width: 80%;
+}
+#mainmenu li a {
+	/*padding:0 15px;*/
+	margin:0;
+	display:inline-block;
+	color:#FFFFFF;
+	text-decoration:none;
+	height:36px !important;
+}
+
+table.nopad {
+	width: auto;
+
+}
+
+div.offline {
+
+	width: auto;
+	
+}
+h1.head-bg{background:url(../images/heading-bg.png) no-repeat;width:100%;height:35px;text-align:center;font-size:18px;color:#ffffff;line-height:35px;}
+h1 {
+
+width: auto;
+}
+
+h2, .contentheading {
+
+width: auto;
+}
+table.contentpaneopen, table.contentpane {
+	margin: 0;
+	padding: 0;
+	width: auto;
+}
+#maincolumn, #maincolumn_full {
+ display: inline-block;
+min-height:350px;
+width:75% !important;
+
+
+}
+
+.tool-title {
+	width: auto;
+}
+* html img,{
+  azimuth: expression(
+    this.pngSet?
+      this.pngSet=true : 
+        (this.nodeName == "IMG" ? 
+          (this.src.toLowerCase().indexOf('.png')>-1 ? 
+            (this.runtimeStyle.backgroundImage = "none", this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.src + "', sizingMethod='image')",
+                this.src = "/home/templates/rhuk_milkyway/images/blank.gif") :
+            '') :          
+          (this.currentStyle.backgroundImage.toLowerCase().indexOf('.png')>-1) ?
+            (this.origBg = (this.origBg) ? 
+              this.origBg :             
+              this.currentStyle.backgroundImage.toString().replace('url("','').replace('")',''),
+              this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.origBg + "', sizingMethod='scale')",
+              this.runtimeStyle.backgroundImage = "none") :
+            ''
+        ), this.pngSet=true
+  );
+}
+/*CSS Fixes Code - By Aashish - Ends Here*/
+#pillmenu li {background: expression(this.previousSibling==null?'url(../images/mw_menu_separator.png) top right no-repeat':'none');}
