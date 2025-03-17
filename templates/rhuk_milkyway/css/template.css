@@ -947,7 +947,7 @@ p.bdr-copy{
 #pillmenu .sf-menu li:hover, #pillmenu .sf-menu li.sfHover,
 #pillmenu .sf-menu a:focus, #pillmenu .sf-menu a:hover, #pillmenu .sf-menu a:active {
 /*comment by kpl	background:		#CFDEFF;   end */
-        background:url("../images/mw_menu_separator.png") no-repeat scroll right top transparent;
+        background:url("/images/mw_menu_separator.png") no-repeat scroll right top transparent;
 	outline:		0;
 }
 #pillmenu .sf-menu li.first-child{
